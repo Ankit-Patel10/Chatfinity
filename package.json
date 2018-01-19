@@ -1,18 +1,13 @@
 {
-  
-	"name": "Chatfinity",
-  
-	"version": "0.0.1",
-  
-	"description": "Chat forever",
-	"scripts": {
-		"start": "node index.js" 
-	}
-,  
-	"dependencies": {
-    "express": "^4.15.2",
-    "socket.io": "^2.0.4"
-  }
-
+ "name": "Chatfinity",
+ "version": "0.0.1",
+ "description": "Chat forever",
+ "scripts": {
+  "start": "node index.js"
+ },
+ "dependencies": {
+  "express": "^4.15.2",
+  "mongoose": "^5.0.0",
+  "socket.io": "^2.0.4"
+ }
 }
- 
