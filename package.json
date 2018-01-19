@@ -1,9 +1,15 @@
 {
   "name": "Chatfinity",
-  "version": "0.0.1",
-  "description": "Chat forever",
-  "dependencies": {
+  
+"version": "0.0.1",
+  
+"description": "Chat forever",
+"scripts": {
+    "start": "node index.js" }
+,  
+"dependencies": {
     "express": "^4.15.2",
     "socket.io": "^2.0.4"
   }
 }
+ 
